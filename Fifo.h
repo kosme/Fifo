@@ -26,9 +26,8 @@ class Fifo
     uint8_t _tail;
     uint8_t _overflow;
     uint8_t _SIZE;
-    uint8_t next();
     Datos * _fila;
-    void revisarLimites();
+    void _revisarLimites();
 };
 
 #endif
