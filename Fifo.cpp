@@ -45,7 +45,7 @@ Datos Fifo::peek()
 
 void Fifo::_revisarLimites()
 {
-  if((_head == __UINT8_MAX__)||(_tail == __UINT8_MAX__))
+  if((_head == UINT8_MAX)||(_tail == UINT8_MAX))
   {
     _head = _head % _SIZE;
     _tail = _tail % _SIZE;
